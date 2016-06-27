@@ -1,0 +1,57 @@
+body {
+  font-family: roboto;
+}
+h1{
+  font-weight:100;
+}
+
+.title {
+  text-align:center;
+  font-size:2rem;
+}
+
+.content {
+  color:white;
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+
+.box {
+  width: 200px;
+  height:200px;
+  text-align:center;
+  margin: 4px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.darken {
+  -webkit-filter:brightness(50%);
+  filter: brightness(50%);
+}
+
+.text {
+  opacity:0;
+}
+
+hr {
+  margin: 2em 10% 2em 10%;
+  margin-bottom: 2em;
+  margin-top:2em;
+}
+.text a {
+  color:white;
+  text-decoration:none;
+}
+.footer a {
+  color:black;
+}
+
+.footer {
+  margin-bottom:2em;
+  text-align:center;
+}
+
+h2 {
+  font-size: 2em;
+}
